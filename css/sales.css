@@ -1,0 +1,70 @@
+body {
+    background-color: #0C243C;
+}
+
+.container {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    background-color: white;
+}
+
+nav{
+    background-color: #e94d40;
+    text-align: right;
+    padding: 10px;
+}
+
+.banner{
+    background-image: url("../img/small/baked_cake_compressed.jpg");
+    background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    background-color: white;
+}
+
+.gallery{
+    max-width: 70%;
+}
+
+.items {
+    width: 70%;
+    display: flex;
+    gap: 3px;
+}
+
+.items img {
+    width: 100%;
+    height: auto;
+}
+
+.prices {
+    padding: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, tr, th, td {
+    border: 1px solid #0C243C
+}
+
+footer {
+    background-color: #e94d40;
+    padding: 20px;
+    text-align: center;
+}
