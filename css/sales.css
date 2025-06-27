@@ -1,21 +1,44 @@
 body {
-    background-color: #0C243C;
+  padding: 0;
+  margin: 0;
+  background-color: #e94d40;
 }
-
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+  color: #e94d40;
+  font-size: 1.6em;
+  text-align: center;
+}
 .container {
-    background-color: white;
-    width: 70%;
-    margin: auto;
+  background-color: #fff;
+  padding: 10px;
+  width: 70%;
+  margin: auto;
 }
 
 header{
-    background-color: white;
+  padding: 0px;
+  background-color: #fff;
+  text-align: center;
 }
 
-nav{
-    background-color: #e94d40;
-    text-align: right;
-    padding: 10px;
+nav {
+  background-color: #e94d40;
+  padding: 20px;
+  text-align: right;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #333;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 90%;
 }
 
 .banner{
@@ -64,7 +87,10 @@ table, tr, th, td {
 }
 
 footer {
-    background-color: #e94d40;
+    background-color: #0c243c;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     text-align: center;
+    margin: auto;
 }
